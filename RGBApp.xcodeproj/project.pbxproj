@@ -21,6 +21,7 @@
 		761F597A191B9AB300F1BFD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761F595C191B9AB300F1BFD0 /* UIKit.framework */; };
 		761F5982191B9AB300F1BFD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 761F5980191B9AB300F1BFD0 /* InfoPlist.strings */; };
 		761F5984191B9AB300F1BFD0 /* RGBAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 761F5983191B9AB300F1BFD0 /* RGBAppTests.m */; };
+		761F598E191BA39600F1BFD0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761F598D191BA39600F1BFD0 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		761F597F191B9AB300F1BFD0 /* RGBAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RGBAppTests-Info.plist"; sourceTree = "<group>"; };
 		761F5981191B9AB300F1BFD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		761F5983191B9AB300F1BFD0 /* RGBAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGBAppTests.m; sourceTree = "<group>"; };
+		761F598D191BA39600F1BFD0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				761F598E191BA39600F1BFD0 /* CoreLocation.framework in Frameworks */,
 				761F595B191B9AB300F1BFD0 /* CoreGraphics.framework in Frameworks */,
 				761F595D191B9AB300F1BFD0 /* UIKit.framework in Frameworks */,
 				761F5959191B9AB300F1BFD0 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		761F5957191B9AB300F1BFD0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				761F598D191BA39600F1BFD0 /* CoreLocation.framework */,
 				761F5958191B9AB300F1BFD0 /* Foundation.framework */,
 				761F595A191B9AB300F1BFD0 /* CoreGraphics.framework */,
 				761F595C191B9AB300F1BFD0 /* UIKit.framework */,
